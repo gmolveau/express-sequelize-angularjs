@@ -1,0 +1,36 @@
+{
+    "development": {
+        "username": "root",
+        "password": null,
+        "database": "example",
+        "host": "localhost",
+        "dialect": "sqlite",
+        "storage": "./db_dev.sqlite"
+    },
+    "test": {
+        "username": "",
+        "password": null,
+        "database": "",
+        "host": "localhost",
+        "dialect": "sqlite",
+        "storage": "./db_test.sqlite"
+    },
+    "production": {
+        "username": "",
+        "password": null,
+        "database": "",
+        "host": "localhost",
+        "port": null,
+        "dialect": "sqlite",
+        "storage": "./db_prod.sqlite"
+    },
+    "postgre": {
+        "username": "postgre_username",
+        "password": "postgre_password",
+        "database": "postgre_database",
+        "host": "127.0.0.1",
+        "port": "5432",
+        "dialect": "postgre",
+        "storage": null
+    }
+}
